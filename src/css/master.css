@@ -29,12 +29,14 @@ header a{
   color: rgb(255, 255, 255);
   margin-left: 2%;
 }
+/*
 #headshare{
   display: inline-block;
   width: 48%;
   margin: 0;
   text-align: right;
 }
+*/
 .wf-notosansjapanese {
   font-family: 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif;
   /*
