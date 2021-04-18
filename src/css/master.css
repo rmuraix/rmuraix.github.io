@@ -55,13 +55,16 @@ header a{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-content: space-around;
 }
 .flexitem{
-  width: 100%;
+  width: 30%;
   height: 100px;
   text-align: center;
+  background-color:blue;
 }
 p{
  text-align: center;
 }
-
