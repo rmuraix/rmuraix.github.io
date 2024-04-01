@@ -39,6 +39,11 @@ jobs:
         run: npm ci
       - name: Build project
         run: npm run build
+      - name: Fix parmissions
+        run: |
+          chmod -c -R +rX "dist/" | while read line; do
+            echo "::warning title=Invalid file permissions automatically fixed::$line"
+          done
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
