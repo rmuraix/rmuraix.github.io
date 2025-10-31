@@ -21,6 +21,7 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.1.16",
     "@types/node": "^18.19.130",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
