@@ -1,5 +1,5 @@
-import Header from "./components/header";
-import MainSection from "./components/mainSection";
+import Header from './components/header'
+import MainSection from './components/mainSection'
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <MainSection />
       </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
