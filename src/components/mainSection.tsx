@@ -1,8 +1,8 @@
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-library.add(faGithub);
+library.add(faGithub)
 
 function MainSection() {
   return (
@@ -20,6 +20,6 @@ function MainSection() {
         </button>
       </div>
     </>
-  );
+  )
 }
-export default MainSection;
+export default MainSection
